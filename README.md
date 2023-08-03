@@ -2,7 +2,7 @@
 ### replace your project info inside ```sentry.properties```
 
 ### install dependency
-``` npm i or yarn or pnpm i```
+```npm i or yarn or pnpm i```
 
 First, run the development server:
 
@@ -16,7 +16,15 @@ pnpm dev
 
 ### Reproduce Step
 
-Just click LinkButton and see network
+set up etc/hosts
+```
+127.0.0.1 cdn.localhost
+```
+
+
+Just click LinkButton and see network tab
 the error will occur only the first time you click that LinkButton
+
+
 so if you want to see it again you can rerun ```pnpm dev``` and hard refresh
 then you can click LinkButton again too see error 
