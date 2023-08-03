@@ -25,8 +25,6 @@ module.exports = withSentryConfig(
   nextConfig,
   {
     silent: true,
-    org: 'thasuohm-practice',
-    project: 'example',
   },
   {
     // Hides source maps from generated client bundles
