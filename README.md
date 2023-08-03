@@ -1,5 +1,12 @@
-### replace your dsn at ```/src/config``` 
-### replace your project info inside ```sentry.properties```
+### set up sentry value 
+replace your dsn at ```/src/config``` 
+
+replace your project info inside ```sentry.properties```
+
+### set up etc/hosts
+```
+127.0.0.1 cdn.localhost
+```
 
 ### install dependency
 ```npm i or yarn or pnpm i```
@@ -15,13 +22,6 @@ pnpm dev
 ```
 
 ### Reproduce Step
-
-set up etc/hosts
-```
-127.0.0.1 cdn.localhost
-```
-
-
 Just click LinkButton and see network tab
 the error will occur only the first time you click that LinkButton
 
